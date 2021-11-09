@@ -1,0 +1,45 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    text-align: center;
+}
+h1{
+    color: rgb(231, 57, 86);
+}
+h2{
+    color: rgb(153, 15, 153);
+}
+h3{
+    color: rgb(190, 190, 32);
+}
+nav ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 0;
+}
+nav ul li{
+    margin-right: 15px;
+}
+nav ul li:last-child{
+    margin-right: 0;
+}
+main ul,
+ol.urunlerimiz{
+    padding: 0;
+    margin: 0;
+}
+
+main ul li,
+ol.urunlerimiz li{
+    list-style-position: inside;
+}
+ol.urunlerimiz li{
+    margin-bottom: 20px;
+}
+.about-us{
+    text-align: left;
+}
+.about-us h2{
+    text-align: center;
+}

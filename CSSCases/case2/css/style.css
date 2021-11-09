@@ -1,0 +1,97 @@
+body{
+    font-family: 'Zen Old Mincho', serif;
+}
+.logo-header{
+    margin-top: 10px;
+    display: flex;
+    justify-content: center;
+}
+.first-col{
+    background-color: #eee;
+    font-size: 14px;
+    margin-bottom: 2px;
+}
+.form-group {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.form-group label{
+    text-align: center;
+    padding: 0;
+}
+.form-group input{
+    width: 35%;
+    height: 22px;
+}
+.form-group input::placeholder {
+    color: #000;
+    font-size: 14px;
+}
+.buton-group {
+    display: flex;
+    justify-content: center;
+}
+.buton-group .btn {
+    background-color: #efefef;
+    border: 1px solid #000;
+    border-radius: 2px;
+    padding: 1px 6px;
+    height: 22px;
+    line-height: 18px;
+    font-size: 14px;
+    margin-right: 4px;
+}
+.second-col ul{
+    padding: 5px 0;
+    margin: 0;
+    list-style: none;
+    font-size: 14px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    
+}
+.second-col ul li{
+    width: 100%;
+}
+.second-col .col{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.second-col .col-md-4:nth-child(2){
+    border: 2px solid #fff;
+    border-top: 0;
+    border-bottom: 0;
+    font-size: 12px;
+}
+.second-col .col-md-4:nth-child(2) ul,
+.second-col .form-group label,
+.second-col .buton-group a{
+    font-size: 12px;
+}
+.second-col .form-group input {
+    width: 60%;
+}
+.second-col .buton-group a{
+    padding: 1px 6px;
+}
+
+
+
+
+
+
+
+
+
+
+
+.copyright {
+    text-align: center;
+    font-size: 12px;
+    margin-top: 10px;
+}
